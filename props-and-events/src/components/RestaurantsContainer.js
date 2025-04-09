@@ -1,8 +1,10 @@
 // JS file that holds a function which returns a div.
 function RestaurantsContainer() {
-    <div>
+    return (
+        <div className="restaurantContainer">
 
-    </div>
+        </div>
+    ); 
 }
 
 export default RestaurantsContainer;
