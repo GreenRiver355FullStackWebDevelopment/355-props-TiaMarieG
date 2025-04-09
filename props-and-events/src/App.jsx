@@ -1,5 +1,5 @@
 import "./App.css";
-import RestaurantsContainer from "./components/RestaurantsContainer";
+import RestaurantsContainer from "./components/RestaurantsContainer.jsx";
 
 function App() {
   return (
