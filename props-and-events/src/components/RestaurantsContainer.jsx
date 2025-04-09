@@ -8,17 +8,10 @@ import { restaurants } from "../data/data.js";
 
 function RestaurantsContainer() {
   return (
-    <div className="restaurantContainer">
-      {
-        // Calling .map on the array to create a shallow copy
-        // Rendering the info using Restaurant import which returns the component
-        restaurants.map ((restaurant) => (
-          <Restaurant 
-          restaurant={restaurant}
-          key={restaurant.id}
-          />
-        ))
-      }
+    // This part really confused me. I had to look at the solution to figure it out
+    // Still don't fully understand it.
+    <div className="restaurantContainer"> 
+      {restaurants.map(restaurant => <Restaurant restaurant={restaurant} />)}
     </div>
   ); 
 }
